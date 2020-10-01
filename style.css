@@ -22,12 +22,11 @@ main {
     height: 64vw;
     border: 5vw solid #434343;
     background-color: #434343;
-    border-radius: 1vw;
+    border-radius: 1vw;   
 }
 
 h7 {
     font-size: 6vw;
-    line-height: 7vh;
 }
 
 section {
@@ -40,8 +39,6 @@ section > div {
     height: 8vw;
     font-family: "CASEFONT";
     text-align: center;
-    margin: auto;
-    
 }
 
 section:nth-of-type(1) > div:nth-child(odd) {
@@ -165,4 +162,5 @@ section:nth-of-type(8) > div:nth-child(even) {
     background-color: rebeccapurple;
     color: white;
     transform: rotateY(180deg);
+    line-height: 8vw;
   }
