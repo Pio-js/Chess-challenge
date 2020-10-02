@@ -174,10 +174,11 @@ section:nth-of-type(8) > div:nth-child(even) {
 }
 
 #name > div {
-    width: 12vw;
-    height: 12vw;
+    width: 11vw;
+    height: 11vw;
     float: left;
     text-align: center;
+    padding: 1vw;
 }
 
 h1 {
@@ -186,8 +187,8 @@ h1 {
 
 .hide {
     display: none;
-    margin-left: -12vw;
-    margin-top: -9vw;
+    margin-left: -14vw;
+    margin-top: -10vw;
 }
 
 .onDiv:hover + .hide{
